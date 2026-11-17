@@ -19,4 +19,4 @@ GitHub Pages serves the repository root on `main`. No custom domain is configure
 
 ## Review before production
 
-Validate current copy, rules/document links, chapter contacts and dates. Measure contrast, check keyboard and screen-reader behavior, and test supported browsers. Replace screenshot-sized photo crops with original files when available. Preview browser checks do not establish production readiness.
+Validate current copy, rules/document links, chapter contacts and dates. Measure contrast, check keyboard and screen-reader behavior, and test supported browsers. Field, combat and group images are cropped directly from the national repository's `images/newfullscreen-slider1.png`, `newfullscreen-slider2.png` and `newfullscreen-slider3.png`, respectively, and saved as WebP without upscaling. Existing portrait files remain unchanged. Camera originals would still improve sharpness. Preview browser checks do not establish production readiness.
