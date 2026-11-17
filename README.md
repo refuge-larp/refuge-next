@@ -20,3 +20,7 @@ GitHub Pages serves the repository root on `main`. No custom domain is configure
 ## Review before production
 
 Validate current copy, rules/document links, chapter contacts and dates. Measure contrast, check keyboard and screen-reader behavior, and test supported browsers. Field, combat and group images are cropped directly from the national repository's `images/newfullscreen-slider1.png`, `newfullscreen-slider2.png` and `newfullscreen-slider3.png`, respectively, and saved as WebP without upscaling. Existing portrait files remain unchanged. Camera originals would still improve sharpness. Preview browser checks do not establish production readiness.
+
+## Shared theme
+
+Presentation assets come from https://github.com/refuge-larp/refuge-theme. `theme.json` follows the latest release; hourly and content-push builds test before deployment. Set a version tag to pin or roll back. Checked-in CSS/JS are a local-preview fallback; deployed builds replace them with the selected release and record it in `theme-version.json`. Theme/tooling updates do not change this site’s content automatically.
