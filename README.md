@@ -10,7 +10,7 @@ Run `python3 -m http.server 8793 --bind 127.0.0.1`, then open http://127.0.0.1:8
 
 - Static HTML, CSS and JavaScript. No build step, accounts, credentials or backend.
 - Public-site design and motion only. Character-management and administration prototypes are omitted.
-- Original event photographs are not published. Original SVG placeholders mark where approved photographs can go.
+- Event photographs from the supplied public-site design export are included. The Refuge Technology Committee Chairperson confirmed that the reused photographs came from the original national website and explicitly permitted use of the added photograph depicting them. This records permission for this site, not a blanket license for third-party reuse.
 - Event dates and chapter links are a design-export snapshot, not a live data feed. The page labels these limitations. Confirm details with the current website or Refuge Database.
 - External Google Fonts requests were removed. Existing fallback fonts render the preview.
 - Theme choices are preview controls, not verified accessibility modes. All palettes still need contrast review.
@@ -19,4 +19,4 @@ GitHub Pages serves the repository root on `main`. No custom domain is configure
 
 ## Review before production
 
-Validate current copy, rules/document links, chapter contacts and dates. Clear image rights, measure contrast, check keyboard and screen-reader behavior, and test supported browsers. Preview browser checks do not establish production readiness.
+Validate current copy, rules/document links, chapter contacts and dates. Measure contrast, check keyboard and screen-reader behavior, and test supported browsers. Replace screenshot-sized photo crops with original files when available. Preview browser checks do not establish production readiness.
